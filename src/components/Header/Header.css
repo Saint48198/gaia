@@ -13,42 +13,21 @@
   --brand-color: #61dafb;
 }
 
-.root {
-  background: #373277;
-  color: #fff;
-}
-
 .container {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 15px 0;
   max-width: var(--max-content-width);
 }
 
+.nav {
+  background-color: #f3f5f7;
+}
+
 .brand {
-  color: color(var(--brand-color) lightness(+10%));
   text-decoration: none;
-  font-size: 1.75em; /* ~28px */
+  width: 81px;
+  height: 29px;
+  display: inline-block;
+  background: url('./logo.svg') top left / cover no-repeat;
 }
 
-.brandTxt {
-  margin-left: 10px;
-}
-
-.banner {
-  text-align: center;
-}
-
-.bannerTitle {
-  margin: 0;
-  padding: 10px;
-  font-weight: normal;
-  font-size: 4em;
-  line-height: 1em;
-}
-
-.bannerDesc {
-  padding: 0;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 1.25em;
-  margin: 0;
-}
